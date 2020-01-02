@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-12-27_2233-clone",
-    "currentPage": "page3.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
       }
     ],
-    "uniqCompNum": 26,
+    "uniqCompNum": 28,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png"
   },
@@ -477,7 +477,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Toon logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Toon formaat\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Toon merknaam\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Toon menu items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Toon hover kleur\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Toon knop(pen)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Aangehecht\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Ingeklapt\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Doorschijnend\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburgerkleur\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/untitled-1-1-136x54.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-2\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Zandstralen</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Luchtgommen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Behandelen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"#bottom\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +32 476/882153</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>\n                    Deschoenmaker.kevin@gmail.com</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Toon logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Toon formaat\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Toon merknaam\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Toon menu items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Toon hover kleur\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Toon knop(pen)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Aangehecht\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Ingeklapt\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Doorschijnend\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburgerkleur\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/untitled-1-1-136x54.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-2\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Zandstralen</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Luchtgommen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"#bottom\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +32 476/882153</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>\n                    Deschoenmaker.kevin@gmail.com</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rMotKkrkuf",
           "_anchor": "menu2-b",
           "_protectedParams": [],
@@ -1237,7 +1237,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Toon logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Toon formaat\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Toon merknaam\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Toon menu items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Toon hover kleur\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Toon knop(pen)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Aangehecht\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Ingeklapt\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Doorschijnend\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburgerkleur\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/untitled-1-1-136x54.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-2\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Zandstralen</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Luchtgommen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Behandelen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"#bottom\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +32 476/882153</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>\n                    Deschoenmaker.kevin@gmail.com</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Toon logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Toon formaat\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Toon merknaam\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Toon menu items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Toon hover kleur\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Toon knop(pen)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Aangehecht\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Ingeklapt\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Doorschijnend\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburgerkleur\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/untitled-1-1-136x54.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-2\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Zandstralen</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Luchtgommen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"#bottom\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +32 476/882153</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>\n                    Deschoenmaker.kevin@gmail.com</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rMotKkrkuf",
           "_anchor": "menu2-b",
           "_protectedParams": [],
@@ -1670,7 +1670,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Toon logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Toon formaat\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Toon merknaam\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Toon menu items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Toon hover kleur\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Toon knop(pen)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Aangehecht\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Ingeklapt\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Doorschijnend\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburgerkleur\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/untitled-1-1-136x54.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-2\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Zandstralen</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Luchtgommen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Behandelen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"#bottom\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +32 476/882153</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>\n                    Deschoenmaker.kevin@gmail.com</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Toon logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Toon formaat\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Toon merknaam\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Toon menu items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Toon hover kleur\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Toon knop(pen)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Aangehecht\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Ingeklapt\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Doorschijnend\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburgerkleur\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/untitled-1-1-136x54.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-2\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Zandstralen</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Luchtgommen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"#bottom\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +32 476/882153</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>\n                    Deschoenmaker.kevin@gmail.com</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rMotKkrkuf",
           "_anchor": "menu2-c",
           "_protectedParams": [],
@@ -2193,7 +2193,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Toon logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Toon formaat\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Toon merknaam\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Toon menu items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Toon hover kleur\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Toon knop(pen)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Aangehecht\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Ingeklapt\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Doorschijnend\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburgerkleur\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/untitled-1-1-136x54.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-2\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Zandstralen</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Luchtgommen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Behandelen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"#bottom\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +32 476/882153</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>\n                    Deschoenmaker.kevin@gmail.com</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Toon logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Toon formaat\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Toon merknaam\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Toon menu items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Toon hover kleur\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Toon knop(pen)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Aangehecht\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Ingeklapt\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Doorschijnend\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburgerkleur\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/untitled-1-1-136x54.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-2\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Zandstralen</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Luchtgommen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"#bottom\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +32 476/882153</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>\n                    Deschoenmaker.kevin@gmail.com</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rMotKkrkuf",
           "_anchor": "menu2-e",
           "_protectedParams": [],
@@ -2272,8 +2272,11 @@
             }
           },
           "_name": "gallery2",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\"></div>\n    </div>\n\n</section>",
-          "_cid": "rMrQHMGmz6",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\" inline>\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\"></div>\n    </div>\n\n</section>",
+          "_anchor": "gallery2-r",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rMrSwgeoom",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -2285,15 +2288,41 @@
           "_params": {
             "text_all": "All",
             "gallery__filtersTextStyle": "display-7",
-            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery__filtersBtnStyle": "btn-danger",
             "gallery": [
               {
-                "tags": "",
+                "tags": "Zandstralen",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/20161230-153850-2000x1125-800x450.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20161230-153850-2000x1125-800x450-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20171123-153201-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171123-153201-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20171123-153048-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171123-153048-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20171123-153005-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171123-153005-2000x1125-800x450.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -2301,12 +2330,12 @@
                 "active": true
               },
               {
-                "tags": "",
+                "tags": "Zandstralen",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/20191021-113551-2000x1671.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20191021-113551-2000x1671-800x668.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20171123-152925-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171123-152925-2000x1125-800x450.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -2314,12 +2343,12 @@
                 "active": false
               },
               {
-                "tags": "",
+                "tags": "Zandstralen",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/20180727-152226-2000x1125.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20180727-152226-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20171106-183722-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171106-183722-2000x1125-800x450.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -2327,12 +2356,12 @@
                 "active": false
               },
               {
-                "tags": "",
+                "tags": "Zandstralen",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/20170820-203011-2000x1125.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20170820-203011-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20171106-183507-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171106-183507-2000x1125-800x450.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -2340,12 +2369,12 @@
                 "active": false
               },
               {
-                "tags": "",
+                "tags": "Zandstralen",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/20190503-144523-1960x1102.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20190503-144523-1960x1102-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20171106-183453-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171106-183453-2000x1125-800x450.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -2353,7 +2382,85 @@
                 "active": false
               },
               {
-                "tags": "",
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20161230-153849-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161230-153849-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20161230-153901-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161230-153901-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20161230-153908-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161230-153908-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20171001-113246-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171001-113246-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20180602-170807-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20180602-170807-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20190503-144523-1960x1960.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20190503-144523-1960x1960-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2364,10 +2471,22 @@
                 "customStyle1": "display-7",
                 "caption": "Onderschrift hier",
                 "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20171123-152859-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171123-152859-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
               }
             ]
-          },
-          "_anchor": "gallery2-p"
+          }
         }
       ]
     },
@@ -2794,7 +2913,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Toon logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Toon formaat\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Toon merknaam\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Toon menu items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Toon hover kleur\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Toon knop(pen)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Aangehecht\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Ingeklapt\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Doorschijnend\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburgerkleur\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/untitled-1-1-136x54.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-2\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Zandstralen</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Luchtgommen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Behandelen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"#bottom\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +32 476/882153</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>\n                    Deschoenmaker.kevin@gmail.com</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Toon logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Toon formaat\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Toon merknaam\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Toon menu items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Toon hover kleur\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Toon knop(pen)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Aangehecht\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Ingeklapt\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Doorschijnend\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburgerkleur\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/untitled-1-1-136x54.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-2\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Zandstralen</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Luchtgommen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"#bottom\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +32 476/882153</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>\n                    Deschoenmaker.kevin@gmail.com</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rMotKkrkuf",
           "_anchor": "menu2-f",
           "_protectedParams": [],
@@ -2884,7 +3003,7 @@
             }
           },
           "_name": "extSlider2",
-          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\">\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Verloopachtergrond\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Kleur 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Luchtgommen</h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">Bij luchtgommen gebruiken we een andere materie om het stuk terug blank te zetten. De korrels zijn minder agressief en je bekomt een minder ruw oppervlak ten opzichte van zand.<div><br></div></h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-warning\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">Realisaties</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/dhiuvb-888x500.jpg\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        \n\n                        \n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\">\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Verloopachtergrond\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Kleur 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Luchtgommen</h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">Bij luchtgommen gebruiken we een andere materie om het stuk terug blank te zetten. De korrels zijn minder agressief en je bekomt een minder ruw oppervlak ten opzichte van zand.<div><br></div></h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-warning\" href=\"page4.html#gallery2-q\" data-app-placeholder=\"Type Text\">Realisaties</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/dhiuvb-888x500.jpg\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        \n\n                        \n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "extSlider2-h",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -2914,12 +3033,6 @@
             ".mbr-slider .modal-body .close": {
               "background": "#1b1b1b"
             },
-            ".row > .row": {
-              "display": "block"
-            },
-            ".mbr-gallery-item": {
-              "width": "100%"
-            },
             ".mbr-gallery-item > div::before": {
               "content": "''",
               "position": "absolute",
@@ -2935,15 +3048,12 @@
                 "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
               }
             },
-            ".mbr-gallery-item > div": {
-              "position": "relative",
-              "&:hover": {
-                ".mbr-gallery-title::before": {
-                  "background": "transparent !important"
-                },
-                "&:before": {
-                  "opacity": "@overlayOpacity !important"
-                }
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
               }
             },
             ".mbr-gallery-title": {
@@ -2973,32 +3083,222 @@
               }
             }
           },
-          "_name": "gallery4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n        \n        <header>Galerij</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"4\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"2\"></div>\n    </div>\n\n</section>",
-          "_cid": "rMrFLccmAE",
+          "_name": "gallery2",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\"></div>\n    </div>\n\n</section>",
+          "_anchor": "gallery2-q",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rMrSdE0i2p",
           "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
             "gallery"
           ],
           "_global": false,
           "_once": false,
           "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-danger",
             "gallery": [
               {
-                "tags": "Geweldige",
+                "tags": "Zandstralen",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@THEME_PATH@/components/_images/background6.jpg",
-                "thumb": "@THEME_PATH@/components/_images/background6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20171123-153201-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171123-153201-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20171123-153048-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171123-153048-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20171123-153005-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171123-153005-2000x1125-800x450.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Onderschrift hier",
                 "active": true
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20171123-152925-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171123-152925-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20171106-183722-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171106-183722-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20171106-183507-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171106-183507-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20171106-183453-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171106-183453-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20161230-153849-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161230-153849-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20161230-153901-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161230-153901-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20161230-153908-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161230-153908-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20171001-113246-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171001-113246-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20180602-170807-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20180602-170807-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20190503-144523-1960x1960.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20190503-144523-1960x1960-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20190317-102810-1774x3428.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20190317-102810-1774x3428-800x1546.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Zandstralen",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20171123-152859-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20171123-152859-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
               }
             ]
-          },
-          "_anchor": "gallery4-n"
+          }
         }
       ]
     },
@@ -3425,7 +3725,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Toon logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Toon formaat\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Toon merknaam\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Toon menu items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Toon hover kleur\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Toon knop(pen)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Aangehecht\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Ingeklapt\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Doorschijnend\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburgerkleur\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/untitled-1-1-136x54.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-2\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Zandstralen</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Luchtgommen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Behandelen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"#bottom\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +32 476/882153</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>\n                    Deschoenmaker.kevin@gmail.com</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Toon logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Toon formaat\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Toon merknaam\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Toon menu items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Toon hover kleur\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Toon knop(pen)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Aangehecht\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Ingeklapt\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Doorschijnend\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburgerkleur\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/untitled-1-1-136x54.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-2\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Zandstralen</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Luchtgommen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"#bottom\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +32 476/882153</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\" data-app-placeholder=\"Type Text\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\"></span>\n                    Deschoenmaker.kevin@gmail.com</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rMotKkrkuf",
           "_anchor": "menu2-j",
           "_protectedParams": [],
