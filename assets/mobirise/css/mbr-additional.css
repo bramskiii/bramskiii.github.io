@@ -1963,7 +1963,7 @@ section.lazy-placeholder:after {
   width: 100%;
   transition: all 0.3s;
   background: #232323;
-  opacity: 0.3;
+  opacity: 0;
   z-index: 1;
   pointer-events: none;
 }
@@ -2042,7 +2042,7 @@ section.lazy-placeholder:after {
   width: 100%;
   transition: all 0.3s;
   background: #232323;
-  opacity: 0.3;
+  opacity: 0;
   z-index: 1;
   pointer-events: none;
 }
@@ -2121,7 +2121,7 @@ section.lazy-placeholder:after {
   width: 100%;
   transition: all 0.3s;
   background: #232323;
-  opacity: 0.3;
+  opacity: 0;
   z-index: 1;
   pointer-events: none;
 }
