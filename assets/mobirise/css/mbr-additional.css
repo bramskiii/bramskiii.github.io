@@ -5559,6 +5559,206 @@ section.lazy-placeholder:after {
     opacity: 0.2!important;
   }
 }
+.cid-rQ78tJw3Gh {
+  padding-top: 45px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rQ78tJw3Gh .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rQ78tJw3Gh .item-image {
+  position: relative;
+}
+@media (min-width: 992px) {
+  .cid-rQ78tJw3Gh .container {
+    max-width: 1600px;
+  }
+}
+.cid-rQ78tJw3Gh .container {
+  padding: 0 2rem;
+}
+.cid-rQ78tJw3Gh .mbr-iconfont {
+  color: #ffffff !important;
+}
+.cid-rQ78tJw3Gh .item-caption {
+  padding: 3rem;
+  padding-bottom: 1rem;
+}
+.cid-rQ78tJw3Gh .item-social {
+  position: absolute;
+  left: 50%;
+  align-items: center;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  bottom: -3rem;
+  opacity: 0;
+  transition: all 0.3s;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, #000000 200%);
+  height: 6rem;
+}
+.cid-rQ78tJw3Gh .bg1 {
+  background: #34558b;
+}
+.cid-rQ78tJw3Gh .bg2 {
+  background: #d13b40;
+}
+.cid-rQ78tJw3Gh .bg3 {
+  background: #ffaf12;
+}
+.cid-rQ78tJw3Gh .bg4 {
+  background: #d6952c;
+}
+.cid-rQ78tJw3Gh .team-item {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: fit-content;
+  transition: all .2s;
+  margin-bottom: 0rem;
+}
+.cid-rQ78tJw3Gh .team-item:hover .item-social {
+  opacity: 1;
+}
+.cid-rQ78tJw3Gh .team-item .item-image img {
+  width: 100%;
+}
+.cid-rQ78tJw3Gh .team-item .item-name p {
+  margin-bottom: 0;
+}
+.cid-rQ78tJw3Gh .team-item .item-role p {
+  margin-bottom: 0;
+}
+.cid-rQ78tJw3Gh .team-item .item-social {
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
+}
+.cid-rQ78tJw3Gh .team-item .item-social .socicon {
+  color: #232323;
+  font-size: 17px;
+}
+.cid-rQ78tJw3Gh .media-row {
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+@media (max-width: 767px) {
+  .cid-rQ78tJw3Gh .item-caption {
+    padding: 2rem 1rem;
+  }
+  .cid-rQ78tJw3Gh .item-social {
+    opacity: 1;
+  }
+}
+.cid-rQ78tJw3Gh .item-name {
+  color: #232323;
+}
+.cid-rQ78tJw3Gh .item-role {
+  color: #232323;
+}
+.cid-rQ78uCnWKn {
+  padding-top: 0px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+.cid-rQ78uCnWKn .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rQ78uCnWKn .item-image {
+  position: relative;
+}
+@media (min-width: 992px) {
+  .cid-rQ78uCnWKn .container {
+    max-width: 1600px;
+  }
+}
+.cid-rQ78uCnWKn .container {
+  padding: 0 2rem;
+}
+.cid-rQ78uCnWKn .mbr-iconfont {
+  color: #ffffff !important;
+}
+.cid-rQ78uCnWKn .item-caption {
+  padding: 3rem;
+  padding-bottom: 1rem;
+}
+.cid-rQ78uCnWKn .item-social {
+  position: absolute;
+  left: 50%;
+  align-items: center;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  bottom: -3rem;
+  opacity: 0;
+  transition: all 0.3s;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, #000000 200%);
+  height: 6rem;
+}
+.cid-rQ78uCnWKn .bg1 {
+  background: #eaac9d;
+}
+.cid-rQ78uCnWKn .bg2 {
+  background: #72617d;
+}
+.cid-rQ78uCnWKn .bg3 {
+  background: #4ec5a5;
+}
+.cid-rQ78uCnWKn .bg4 {
+  background: #d6952c;
+}
+.cid-rQ78uCnWKn .team-item {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: fit-content;
+  transition: all .2s;
+  margin-bottom: 0rem;
+}
+.cid-rQ78uCnWKn .team-item:hover .item-social {
+  opacity: 1;
+}
+.cid-rQ78uCnWKn .team-item .item-image img {
+  width: 100%;
+}
+.cid-rQ78uCnWKn .team-item .item-name p {
+  margin-bottom: 0;
+}
+.cid-rQ78uCnWKn .team-item .item-role p {
+  margin-bottom: 0;
+}
+.cid-rQ78uCnWKn .team-item .item-social {
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
+}
+.cid-rQ78uCnWKn .team-item .item-social .socicon {
+  color: #232323;
+  font-size: 17px;
+}
+.cid-rQ78uCnWKn .media-row {
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+@media (max-width: 767px) {
+  .cid-rQ78uCnWKn .item-caption {
+    padding: 2rem 1rem;
+  }
+  .cid-rQ78uCnWKn .item-social {
+    opacity: 1;
+  }
+}
+.cid-rQ78uCnWKn .item-name {
+  color: #232323;
+}
+.cid-rQ78uCnWKn .item-role {
+  color: #232323;
+}
 .cid-rN0IHsfg0v {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -6005,7 +6205,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-rOjGj8eMUk {
-  padding-top: 45px;
+  padding-top: 105px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
